@@ -3,55 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="displayflex.css">
     <title>Display Flex</title>
-    <style>
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box; /*Garante que padding e borda não façam a caixa crescer além do que eu planejar*/
-        }
-
-        body {
-            width: 100vw; /*Todo o conteúdo pode ocupar 100% de largura da tela*/
-            min-height: 100vh; /*Todo o conteúdo vai ocupar 100% de altura da tela no mínimo*/
-            display: flex; /*Display flex no pai direto para alinhar o container filho ao meio*/
-            justify-content: center; 
-            align-items: center;
-        }
-
-        .container1 {
-            display: flex; /*Display flex no container o permite mexer diretamente no conteúdo dentro dele*/
-            border: 2px solid black;
-            max-width: 900px;
-            height: auto;
-            flex-wrap: wrap; /*Flex-wrap, (com align content)*/
-            justify-content: center; /*Por padrão, alinha na horizontal (row)*/
-            align-content: center; /*Por padrão, alinha na vertical (row)*/
-            border-radius: 5px;
-            gap: 10px;
-        }
-
-        .box-items {
-            display: flex; 
-            justify-content: center; /*Alinho diretamente o conteúdo da caixa ao centro (as letras)*/
-            align-items: center; 
-            background-color: rgb(82, 82, 105);
-            font-weight: bold;
-            height: 150px;
-            flex: 1 1 150px; /*Atalho para flex-grow, flex-shrink e flex-basis. (cresce se houver mais espaço, encolhe se não houver muito espaço, e define apenas uma largura inicial de 150px nas caixas)*/
-            margin: 20px;
-            padding: 40px;
-            color: white;
-            border-radius: 4px;
-        }
-
-        .item {
-            color: rgb(255, 205, 214); /*Só pra ficar bonitinho :p*/
-        }
-        
-    </style>
+   
 </head>
+
 <body>
     <div class="container1">
 
