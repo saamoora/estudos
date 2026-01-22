@@ -1,0 +1,99 @@
+ medidas relativas: %, em, rem, vw, vh.
+
+    - % (porcentagem): Relativa ao elemento pai (largura/altura).
+
+
+    - em: Relativa ao tamanho da fonte do elemento pai (ou do próprio elemento).
+
+
+    - rem (root em): Relativa ao tamanho da fonte do elemento raiz (<html>), ótima para escalabilidade de texto e espaçamento.
+
+
+    - vw (viewport width): Relativa à largura da janela do navegador (viewport).
+
+
+    - vh (viewport height): Relativa à altura da janela do navegador (viewport). 
+
+
+
+ medidas absolutas: px, cm, mm, in
+
+    - px (píxel): Unidade mais comum, mas pode ser ruim para acessibilidade (fontes fixas).
+
+
+    - cm, mm, in (centímetros, milímetros, polegadas): Baseadas em unidades físicas reais, não recomendadas para tela. 
+
+
+    ---------------------------
+
+
+    weight: peso
+    width: largura
+    height: altura
+
+    shorthand: simplifica em uma única linha 
+
+    ---------------------------
+
+    em html é id = em css é "#"
+    em html é class = em css é "."
+
+    DISPLAY: IN-LINE
+    <span>, <a>, <img>, <strong>, etc.. 
+
+    DISPLAY: BLOCK
+    <div>, <section>, <p>, <h1>, etc... 
+        
+
+    flex-wrap: wrap; (Permite que os itens quebrem, para que possa caber no espaço disponível)
+
+     align-items: start; (alinha pra cima)
+     align-items: center; (alinha ao centro)
+     align-items: end; (alinha pra baixo)
+
+     align-self:; (alinha somente um item em específico)
+    
+
+    PROPRIEDADES DISPLAY: FLEX; (FLEX-DIRECTION)
+            
+      - flex- direction: row (PADRÃO) ou row-reverse (padrão invertido) - linha horizontal
+      - flex-direction: column (COLUNA) ou column-reverse (coluna invertida) - coluna vertical */
+              
+
+
+        anotações importantes!!  quando o flex-direction está como ROW, o eixo principal é horizontal (eixoX)
+       quando o flex-direction está como COLUMN, o eixo principal é vertical (eixoY)*/
+
+
+              
+    PROPRIEDADES DISPLAY: FLEX; - (FLEX-WRAP & FLEX-FLOW)
+
+        -flex-wrap: nowrap; (padrão) - obecede o tamanho definido pelo container pai e se ajusta.
+        -flex-wrap: wrap; (quebra os itens para caber melhor e não quebrar a altura e largura denifida para eles para não ficarem espremidos.)
+        -flex-wrap: rwap-reverse; (inverte os itens quebrados)
+            
+        -flex-flow: flex-direction + flex-flow (shorthand) */
+            
+
+    PROPRIEDADES DISPLAY: FLEX; - (JUSTIFY-CONTENT (alinha no eixoX para ROW, eixoY para COLUMN))
+
+        -justify-content: flex-start; (padrão)
+        -justify-content: flex-end; (alinha para o final)
+        -justify-content: center; (alinha ao centro horizontalmente)
+        -justify-content: space-between; (espaçamento total entre os itens sem margem)
+        -justify-content: space-around; (espaçamento com margem, mas desproporcional nas extremidades; margens)
+        -justify-content: space-evenly; (espaçamento distribuído de forma igual para todos os cantos nos itens)
+
+    PROPRIEDADES DISPLAY: FLEX; (ALIGN-ITEMS (alinha no eixoX para ROW, eixoY para COLUMN)) - aplica direto nos itens, como um grupo
+
+      PROPRIEDADES DISPLAY: FLEX; (ALIGN-CONTENT) (mexe no conjunto de linhas, SÓ funciona se tiver mais de uma linha e você precise usar flex wrap)
+
+      gap: espaçamento entre os itens 
+
+    FLEX-BASIS - define o tamanho da caixa do conteúdo
+
+    FLEX-GROW - define quanto as caixas vão crescer, ou uma caixa em específico quando a tela vai aumentando
+
+    FLEX-SHRINK - define quanto as caixas vão encolher, ou uma caixa em específico quando a tela vai diminuindo
+
+    FLEX: atalho pra flew-grow, flew-shrink, flex-basis
