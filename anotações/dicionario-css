@@ -1,4 +1,4 @@
- medidas relativas: %, em, rem, vw, vh.
+<!-- <medidas relativas: %, em, rem, vw, vh.
 
     - % (porcentagem): Relativa ao elemento pai (largura/altura).
 
@@ -96,4 +96,4 @@
 
     FLEX-SHRINK - define quanto as caixas vão encolher, ou uma caixa em específico quando a tela vai diminuindo
 
-    FLEX: atalho pra flew-grow, flew-shrink, flex-basis
+    FLEX: atalho pra flew-grow, flew-shrink, flex-basis -->
