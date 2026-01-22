@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pseudo Classes</title>
+
+    <style>
+        /*
+            # = id
+            . = class
+            : = pseudoclasse
+            :: = pseudoelemento
+        */
+
+        /*PARA PSEUDOCLASSE: HOVER*/
+        .box {
+            font-size: 30px;
+        }
+        
+        /*Esconde o texto do parágrafo da div*/
+        .box .hidden {
+            display: none;
+        }
+        /*Mostra o texto escondido após passar o mouse*/
+        .box:hover .hidden {
+            display: block;
+            color: #000000;
+            background-color: #eb9393;
+            border-radius: 7px;
+            width: 200px;
+        }
+        /*Após passar o mouse em cima da div, deixa ela com a cor marrom*/
+        .box:hover {
+            color: #a52a2a;
+        }
+        /*Adiciona espaçamento interno entre o texto e a borda; alinha ao centro*/
+        .hidden {
+            padding: 3px;
+            text-align: center;
+        }
+
+
+        /*PARA PSEUDOCLASSE: VISITED*/
+        a {
+            color: #eb9393;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /*Os links visitados ficarão da cor rosa*/
+        a:visited {
+            color: #c76dc7;
+         }
+
+
+         /*PARA PSEUDOCLASSE: ACTIVE*/
+        /*Quando link for clicado, a cor fica rosa escuro*/
+         a:active {
+            color: #854485;
+         }
+
+         /*PSEUDO-ELEMENTOS (before, after)*/
+         .especial::before { 
+            content: '>>';
+            font-weight: lighter;
+         }
+
+         .especial::after {
+            content: '<<';
+            font-weight: lighter
+         }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de hover</h1>
+    <div class="box">Passa o mouse aqui bosta
+        <p class="hidden">acho🙈</p>
+    </div>
+
+    <div class="links">
+        <ul>
+            <li><a href="https://discord.com/channels/@me" target="_blank">Discord</a></li>
+            <li><a href="https://open.spotify.com/intl-pt/" target="_blank">Spotify</a></li>
+            <li><a href="https://cybercook.com.br/receitas/bolos/receita-de-bolo-facil-74419" target="_blank" class="especial">Receita de bolo</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>

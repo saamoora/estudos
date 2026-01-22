@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display block, inline, inline-block</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*Caixa, que armazena o conteúdo dentro*/
+        .display-block-box {
+            margin: 30px;
+        }
+ 
+        /*DISPLAY: block /Ocupa toda a largura dispinível; SEMPRE inicia em uma nova linha. Aceita widht, height, margin e padding para melhor controle. (Conteúdo dentro da caixa). */
+        .display-block {
+            display: block;
+            background-color: rgb(136, 120, 120);
+            width: 100px;
+            height: 100px;
+            padding: 10px; 
+        }
+
+        /*Caixa, que armazena o conteúdo dentro*/
+        .display-inline-box {
+            margin: 30px;
+        }
+
+        /*DISPLAY: inline /Pega SOMENTE a largura necessária do conteúdo; widht e height não funcionam, mas aceita padding. Inicia na mesma linha. (Conteúdo dentro da caixa)*/
+        .display-inline {
+            display: inline;
+            background-color: rgb(136, 120, 120);
+            padding: 10px;
+        }
+
+        /*Caixa, que armazena o conteúdo dentro*/
+        .display-inline-block-box {
+            margin: 30px;
+        }
+
+        /*DISPLAY: inline-block /Coloca um do lado do outro, mas pega as propriedades do display block, deixando definir altura e largura*/
+        .display-inline-block {
+            display: inline-block;
+            background-color: rgb(136, 120, 120);
+            width: 100px;
+            height: 100px;
+            padding: 10px; 
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="display-block-box">
+        <h1 class="display-block">oi</h1>
+        <h1 class="display-block">oi</h1>
+        display-block
+
+    </div>
+
+    <div class="display-inline-box">
+        <h1 class="display-inline">oi</h1>
+        <h1 class="display-inline">oi</h1>
+        display-inline
+    </div>
+
+    <div class="display-inline-block-box">
+        <h1 class="display-inline-block">oi</h1>
+        <h1 class="display-inline-block">oi</h1>
+        display inline block
+    </div>
+
+</body>
+</html>
