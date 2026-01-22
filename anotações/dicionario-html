@@ -1,99 +1,99 @@
-<!--src (Source)
-       - origem -->
+<!--src - (Source)
+       - (origem) 
 
-    <!--<h1> 
-       - (Título) --> 
+    <h1> 
+       - (Título) 
 
-    <!--<h2, h3, h4, h5, h6> 
-       - (Subtítulos) -->
+    <h2, h3, h4, h5, h6> 
+       - (Subtítulos) 
 
-    <!--<p> 
-       - (Parágrafo) -->
+    <p> 
+       - (Parágrafo) 
 
 
-   <!--<header> 
-      - (Topo, Cabeçalho) - TAG SEMÂNTICA MAIS RECOMENDADO-->
+   <header> 
+      - (Topo, Cabeçalho) - TAG SEMÂNTICA MAIS RECOMENDADO
    
 
-   <!--<footer> 
-       - (Rodapé) Parte final do site - TAG SEMÂNTICA MAIS RECOMENDADO-->
+   <footer> 
+       - (Rodapé) Parte final do site - TAG SEMÂNTICA MAIS RECOMENDADO
 
 
-   <!--<nav> 
-      - (Menu, Navegação) - TAG SEMÂNTICA MAIS RECOMENDADO -->
+   <nav> 
+      - (Menu, Navegação) - TAG SEMÂNTICA MAIS RECOMENDADO 
 
 
-   <!--<section>
+   <section>
        - (Seção): Divide o conteúdo em partes com significado
-         - (Cada <section> representa uma seção lógica do site, como “Sobre”, “Serviços”, “Contato”). MAIS RECOMENDADO -->
+         - (Cada <section> representa uma seção lógica do site, como “Sobre”, “Serviços”, “Contato”). MAIS RECOMENDADO 
 
 
-   <!--<div> 
-      - (Divisória): Agrupa elementos, sem significado. -->
+   <div> 
+      - (Divisória): Agrupa elementos, sem significado. 
 
       
-   <!--<article> 
-       - (Artigo) -->
+   <article> 
+       - (Artigo) 
 
 
-   <!--<img>
+   <img>
        - (Imagem)  
         <img src="" alt="" widht="x"> (Para definir a largura)
-         <img src="" alt="" height="x"> (Para definir a altura)-->
+         <img src="" alt="" height="x"> (Para definir a altura)
 
 
 
-   <!--<picture> - Para mostrar diferentes versões de imagens para se adaptar em diferentes dispositivos
+   <picture> - Para mostrar diferentes versões de imagens para se adaptar em diferentes dispositivos
          - "srcet": arquivo da imagem 
-         - "media": largura mínima -->
+         - "media": largura mínima 
 
 
 
-   <!--<form> 
+   <form> 
        - (Formulário)
         - É o contêiner que reúne todos os campos (<input>, <select>, <textarea>, <button>, etc.) e envia os dados para um servidor.
          - O <input> possuí vários tipos, sendo eles tipo texto, senha, email, submit(enviar), etc...
           - "name": Usado no input para identificar o dado quando enviado o formulário. 
            - "id": Identifica o campo e conecta com o <label>. 
-            - <input REQUIRED> (Campo obrigatório)-->
+            - <input REQUIRED> (Campo obrigatório)
 
 
 
-   <!--<ol> (Ordered List): Para determinar uma lista -
+   <ol> (Ordered List): Para determinar uma lista -
       -  <li>: (List Item) Para identificar cada item da lista --
           -  <ol type>: Para personalizar as numerações
-              -  <ol start= "x">: Para indicar o número início da contagem -- A ORDEM DOS ITENS INFLUENCIA NO SIGNIFICADO DA LISTA! -->
+              -  <ol start= "x">: Para indicar o número início da contagem -- A ORDEM DOS ITENS INFLUENCIA NO SIGNIFICADO DA LISTA
 
 
 
-   <!--<ul> (Unordered List) A ORDEM DOS ITENS NÃO INFLUENCIA NO SIGNIFICADO DA LISTA! -- 
-       - types = "disc", "circle", "square"-->
+   <ul> (Unordered List) A ORDEM DOS ITENS NÃO INFLUENCIA NO SIGNIFICADO DA LISTA -- 
+       - types = "disc", "circle", "square"
 
 
 
-   <!--<table> (Tabela)
+   <table> (Tabela)
       <tr> (Table Row): Uma linha
       <th> (Table Header): Cabeçalho, Título 
       <td> (Table Data): Dado de cada célula
        <table border="x"> Para borda, apenas números inteiros em HTML
-       <table width="x %" Para largura do cabeçalho -->
+       <table width="x %" Para largura do cabeçalho 
 
 
 
-   <!--<a> (Âncora) Para links- 
+   <a> (Âncora) Para links- 
         - 'target="_blank"' Para o link abrir em uma nova aba/janela no navegador.-
         - 'rel="external"' Para indicar que o link leva para um site EXTERNO. --
         - 'rel="next"' Para próxima página. 
         - 'rel="prev"' Para página anterior. 
-        - 'rel=_self"' Para mesma aba/janela. -->   
+        - 'rel=_self"' Para mesma aba/janela.  
         
         
 
-   <!--<iframe> (Inline Frame) Para mostrar outro site, página ou vídeo como uma "janela emutida" dentro do meu site-->
+   <iframe> (Inline Frame) Para mostrar outro site, página ou vídeo como uma "janela emutida" dentro do meu site
 
 
 
-   <!--<audio> Para áudios
+   <audio> Para áudios
        <video> Para vídeos
         - <audio/video controls> Para carregar o controle de reprodução 
         - <'autoplay'> : começa automaticamente
@@ -102,67 +102,67 @@
         - 'preload="(auto, metadata, none)'": 
         - 'auto': o navegador carrega o áudio/video inteiro assim que aberto
         - 'metadata': carrega apenas informações básicas do  áudio/video  (como duração, tipo e autor)
-        - 'none': o navegador não carrega nada até o usuário apertar  “play”. economiza dados e deixa o site mais leve. --> 
+        - 'none': o navegador não carrega nada até o usuário apertar  “play”. economiza dados e deixa o site mais leve. 
 
          
 
-    <!--<hr> (Horizontal Rule) 
-       - Linha Horizontal -->
+    <hr> (Horizontal Rule) 
+       - Linha Horizontal 
 
-    <!--<br> (Break Rule) 
-       - Quebra de linha -->
+    <br> (Break Rule) 
+       - Quebra de linha
 
-    <!--<ins> (inserir) 
-       - Sublinha a frase/palavra -->
+    <ins> (inserir) 
+       - Sublinha a frase/palavra 
 
-    <!--<address> 
-       - Para endereço, contato, email, telefone, etc  -->
+    <address> 
+       - Para endereço, contato, email, telefone, etc  
 
-    <!--<del> ou <s> 
-       - Risca o texto no meio (depende do contexto)-->
+    <del> ou <s> 
+       - Risca o texto no meio (depende do contexto)
 
-    <!--<strong> 
-       - Negrito -->
+    <strong> 
+       - Negrito 
 
-    <!--<em> 
-       - Itáilco -->
+    <em> 
+       - Itáilco 
 
-    <!--<mark> 
-       - Marcador -->
+    <mark> 
+       - Marcador 
 
-    <!--<small> 
-       - Diminui a fonte -->
+    <small> 
+       - Diminui a fonte
 
-    <!--<sup> 
-       - Fonte para cima -->
+    <sup> 
+       - Fonte para cima 
 
-    <!--<sub> 
-       - Fonte para baixo -->
+    <sub> 
+       - Fonte para baixo
 
-    <!--<code>: Para códigos-fonte - 
-        <pre>: Para pré-formatação do código (Antes do <code>)-->
+    <code>: Para códigos-fonte - 
+        <pre>: Para pré-formatação do código (Antes do <code>)
 
-    <!--<q> (quote) Citações -
-     <blockquote> Citações mais longas -->
+    <q> (quote) Citações -
+     <blockquote> Citações mais longas
 
-    <!--<abbr> (Abreviação) - 
-       - significado da palavra abreviada -->
+    <abbr> (Abreviação) - 
+       - significado da palavra abreviada
 
-    <!--<bdo> rtl (Right to Left) - 
-       - Inverte a frase/palavra -->
+    <bdo> rtl (Right to Left) - 
+       - Inverte a frase/palavra 
 
-    <!--<dl> (Definition List) Lista de definição -- 
-        <dt>: Termo <dd>: Definição do termo -->
+    <dl> (Definition List) Lista de definição -- 
+        <dt>: Termo <dd>: Definição do termo 
             
     
-             Símbolos
-    <!--&reg;  &copy;  &trade; &euro; &pound;  etc... -->
+         Símbolos
+    &reg;  &copy;  &trade; &euro; &pound;  etc...
     
-            Emojis
-    <!-- &#"..." -->
+         Emojis
+     &#"..." 
      
         Sobre imagens:
-    <!-- Quanto menor for o peso da imagem, melhor. -->
-    <!-- Use o GIMP para te ajudar a diminuir o peso da sua imagem de preferência.-->
-    <!-- Procure sempre saber se a imagem tem direitos autorais, se tiver, procure outra.-->
-    <!-- Imagens muito pesadas, sites muito pesados influenciam na visualização do site e na aparição dele no google-->
+     Quanto menor for o peso da imagem, melhor. 
+     Use o GIMP para te ajudar a diminuir o peso da sua imagem de preferência.
+     Procure sempre saber se a imagem tem direitos autorais, se tiver, procure outra.
+     Imagens muito pesadas, sites muito pesados influenciam na visualização do site e na aparição dele no google -->
