@@ -23,7 +23,7 @@ header {
 
 .header-title {
     font-family: "Passion One", sans-serif;
-    font-size: 6vw;
+    font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
     color: var(--cor-secundaria);
@@ -31,7 +31,7 @@ header {
 }
 
 .letters {
-    font-size: 7.5vw;
+    font-size: 1.2em;
 }
 
 header p {
