@@ -53,14 +53,6 @@ header p {
     text-decoration: underline;
 }
 
-.emoji {
-    display: none;
-}
-
-header:hover .emoji {
-    display: inline;
-}
-
 section {
     padding-top: 7vh;
     padding-bottom: 7vh;
