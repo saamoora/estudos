@@ -54,13 +54,13 @@ header p {
 }
 
 section {
-    padding-top: 7vh;
-    padding-bottom: 7vh;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     padding-left: 2rem;
-    font-size: 2.8vw;
+    font-size: 1.2em;
     line-height: 2em;
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
 }
 
 
@@ -83,7 +83,7 @@ section {
     font-weight: bold;
     color: white;
     background-color: rgba(0, 0, 0, 0.575);
-    width: 30vw;
+    width: 300px;
 }
 
 .section-image-2{
@@ -94,7 +94,6 @@ section {
 
 footer {
     font-family: "Libre Baskerville", Arial, Helvetica, sans-serif;
-    font-size: 2vw;
     padding: 10px;
     color: white;
     background-color: #000000;
