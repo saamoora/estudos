@@ -52,8 +52,9 @@ header p {
 section {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
-    padding-left: 2rem;
-    font-size: 1.2em;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 1.1em;
     line-height: 2em;
     margin-top: 1.2em;
     margin-bottom: 1.2em;
@@ -61,8 +62,6 @@ section {
 
 
 .p-poetry {
-    display: flex;
-    flex-shrink: 1;
     font-family: "Libre Baskerville", serif;
     font-style: italic;
     font-weight: bold;
@@ -76,8 +75,6 @@ section {
 }
 
 .p-image {
-    display: flex;
-    flex-shrink: 1;
     font-family: "Libre Baskerville", serif;
     font-style: italic;
     font-weight: bold;
