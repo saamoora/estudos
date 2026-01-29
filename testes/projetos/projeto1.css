@@ -17,10 +17,15 @@
             --cor4: #446141;
             --cor5: #2E362E;
             --cor6: #293329;
+            --cor7: #92c58d;
+            --cor8: #368d2e;
+            --cor9: #40693c;
+            --cor10: #293329;
+            --footer-span: #47B63D;
         }
 
         body {
-            background-color: #92c58d;
+            background-color: var(--cor7);
         }
 
         header {
@@ -64,7 +69,7 @@
         }
 
         .li-menu:hover {
-            background-color: #368d2e;
+            background-color: var(--cor8);
             border-radius: 5px;
             color: #ffffff;
             transition-duration: .4s;
@@ -136,11 +141,11 @@
         }
 
         footer span {
-            color: #47B63D;
+            color: var(--footer-span);
         }
 
         aside {
-            background-color: #50924aef;
+            background-color: var(--cor9);
             border-radius: 10px;
             color: white;
             font-family: "Roboto Slab", serif;
@@ -148,7 +153,7 @@
         }
 
         aside h3 {
-            background-color: #40693c;
+            background-color: var(--cor9);
             border-radius: 10px 10px 0px 0px;
             height: 30px;
             padding-top: 3px;
@@ -173,7 +178,7 @@
         }
 
         aside a {
-            color: #2a4428;
+            color: var(--cor10);
             text-decoration: none;
         }
 
@@ -182,7 +187,7 @@
         }
 
         .video {
-            background-color: #293329;
+            background-color: ;
             margin: 0px -20px 10px -20px;
             padding: 20px;
         }
