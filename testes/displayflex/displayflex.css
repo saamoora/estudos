@@ -7,7 +7,7 @@
         body {
             width: 100vw; /*Todo o conteúdo pode ocupar 100% de largura da tela*/
             min-height: 100vh; /*Todo o conteúdo vai ocupar 100% de altura da tela no mínimo*/
-            display: flex; /*Display flex no pai direto para alinhar o container filho ao meio*/
+            display: flex; 
             justify-content: center; 
             align-items: center; 
         }
