@@ -1,5 +1,5 @@
-↪︎   Atualmente estudando desenvolvimento web
+Algumas anotações e testes para estudos
 
 ↪︎   ⏳⚙️ Em processo...
 
-↪︎   SO: Linux Mint
+
