@@ -1,0 +1,29 @@
+/*Estilo para versão de impressora*/
+
+@charset "UTF-8";
+
+* {
+    padding: 10px;
+    margin: 10px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+nav {
+    display: none;
+}
+
+article::after {
+    content: 'www.noticias.com';
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+
+nav {
+    display: none;
+}
